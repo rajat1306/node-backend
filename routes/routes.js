@@ -9,4 +9,8 @@ router.delete('/delete/:id', (req, res) => {
     res.send('Delete by Id')
 })
 
+router.patch('/update/:id', (req, res) => {
+    res.send('Update by Id')
+})
+
 module.exports=router;
